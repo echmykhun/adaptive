@@ -22,6 +22,13 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    /*font-family: Starjedi, 'Georgia', serif;*/
+    /*font-family: Starjhol, 'Georgia', serif;*/
+    /*font-family: Stjldbl1, 'Georgia', serif;*/
+    /*font-family: Stjldbl2, 'Georgia', serif;*/
+    /*font-family: Strjmono, 'Georgia', serif;*/
+    /*font-family: starv___, 'Georgia', serif;*/
+    font-family: EPISODE1, 'Georgia', serif;
 }
 body {
     line-height:1;

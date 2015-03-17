@@ -1,0 +1,155 @@
+#header, #menu
+{
+    width:100%;
+    background: #333300;
+    background: -moz-linear-gradient(left, #000033, #330000); /* FF3.6+ */
+    background: -webkit-linear-gradient(left, #000033, #330000); /* Chrome 10+, Safari 5.1+ */
+    background: -o-linear-gradient(left, #000033, #330000); /* Opera 12 */
+    background: -ms-linear-gradient(left, #000033, #330000); /* IE10 */
+    background: linear-gradient(left, #000033, #330000); /* CSS3*/
+}
+#header-l
+{
+    background: url(../img/hatL.png) no-repeat left;
+    background-size: 200px 252px;
+    width: 50%;
+    float: left;
+}
+#header-cl
+{
+    background: url(../img/hatCL.png) no-repeat right;
+}
+#header-cr
+{
+    background: url(../img/hatCR.png) no-repeat left;
+}
+#header-r
+{
+    background: url(../img/hatR.png) no-repeat right;
+    background-size: 200px 252px;
+    width: 50%;
+    float: right;
+}
+#header, #header-l, #header-cl,#header-cr, #header-r
+{
+    height: 252px;
+}
+#footer {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#menu a{
+    color: #ECC760;
+    vertical-align: middle;
+    horiz-align: center;
+    text-transform: capitalize;
+}
+#menu li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+@media only screen
+and (max-width: 320px) {
+
+    #menu {
+    }
+
+    #content {
+    }
+
+    #right-column {
+    }
+}
+
+@media only screen
+and (min-width: 320px)
+and (max-width: 600px) {
+
+    #menu {
+    }
+
+    #content {
+    }
+
+    #right-column {
+    }
+
+}
+
+@media only screen
+and (min-width: 600px)
+and (max-width: 767px) {
+    #menu {
+    }
+
+    #content {
+    }
+
+    #right-column {
+    }
+}
+
+@media only screen
+and (min-width: 768px)
+and (max-width: 799px) {
+    #menu {
+
+    }
+
+    #content {
+    }
+
+    #right-column {
+    }
+}
+
+@media only screen
+and (min-width: 800px)
+and (max-width: 1020px) {
+    #menu {
+    }
+
+    #content {
+    }
+
+    #right-column {
+    }
+}
+
+@media only screen
+and (min-width: 1020px)
+and (max-width: 1224px) {
+    #menu {
+    }
+
+    #content {
+    }
+
+    #right-column {
+    }
+}
+
+@media only screen
+and (min-width: 1224px) {
+    #menu {
+        width: 100%;
+        background-color: #cccccc;
+        height: 50px;
+    }
+
+    #content {
+        width: 75%;
+        float: left;
+    }
+
+    #right-column {
+        width: 25%;
+        float: right;
+    }
+}
