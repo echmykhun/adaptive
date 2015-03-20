@@ -29,6 +29,7 @@ time, mark, audio, video {
     /*font-family: Strjmono, 'Georgia', serif;*/
     /*font-family: starv___, 'Georgia', serif;*/
     font-family: EPISODE1, 'Georgia', serif;
+    color: #ECC760;
 }
 body {
     line-height:1;
@@ -54,6 +55,7 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    color: #ECC760;
 }
 /* change colours to suit your needs */
 ins {
