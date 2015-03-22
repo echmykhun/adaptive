@@ -59,7 +59,6 @@ h1 {
 #menu ul {
     display: inline-block;
     height: 100%;
-    margin: 20px 40%;
 }
 
 #menu li {
@@ -77,4 +76,8 @@ h1 {
 
 #right-column {
     margin-left: 5px;
+}
+
+#menu-arrow{
+    display: none;
 }

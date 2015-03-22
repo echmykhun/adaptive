@@ -1,27 +1,96 @@
 @media only screen
 and (max-width: 320px) {
 
-    #menu {
+    #menu{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+    }
+    #menu:focus, #menu:hover {
+        padding: 0px 0px 30px 0px;
+        position: absolute;
+        width: 100px;
+        height: 150px;
+        z-index: 999;
+        background: #660066;
+        background: -moz-linear-gradient(left, #663333, #333366); /* FF3.6+ */
+        background: -webkit-linear-gradient(left, #663333, #333366); /* Chrome 10+, Safari 5.1+ */
+        background: -o-linear-gradient(left, #663333, #333366); /* Opera 12 */
+        background: -ms-linear-gradient(left, #663333, #333366); /* IE10 */
+        background: linear-gradient(left, #663333, #333366); /* CSS3*/
     }
 
-    #content {
+    #menu-arrow{
+        display: block;
+        width: 40px;
+        height: 40px;
+        background:url('http://icons.aniboom.com/Energy/Resources/userControls/TimeFrameDropDownFilter/Dropdown_Arrow.png') 0 no-repeat;
+        background-size: 40px 40px;
     }
 
-    #right-column {
+    #content-container {
+        margin: 50px 0px 0px 0px;
+    }
+
+    #header{
+        background: url(../img/hatC.png) no-repeat;
+        background-size: 100% 200px;
+        height: 200px;
+    }
+
+
+    #header-cl, #header-cr, #header-l, #header-r {
+        display: none;
     }
 }
 
 @media only screen
 and (min-width: 320px)
-and (max-width: 600px) {
+and (max-width: 599px) {
 
-    #menu {
+    #menu{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+    }
+    #menu:focus, #menu:hover {
+        padding: 0px 0px 30px 0px;
+        position: absolute;
+        width: 100px;
+        height: 150px;
+        z-index: 999;
+        background: #660066;
+        background: -moz-linear-gradient(left, #663333, #333366); /* FF3.6+ */
+        background: -webkit-linear-gradient(left, #663333, #333366); /* Chrome 10+, Safari 5.1+ */
+        background: -o-linear-gradient(left, #663333, #333366); /* Opera 12 */
+        background: -ms-linear-gradient(left, #663333, #333366); /* IE10 */
+        background: linear-gradient(left, #663333, #333366); /* CSS3*/
     }
 
-    #content {
+    #menu-arrow{
+        display: block;
+        width: 40px;
+        height: 40px;
+        background:url('http://icons.aniboom.com/Energy/Resources/userControls/TimeFrameDropDownFilter/Dropdown_Arrow.png') 0 no-repeat;
+        background-size: 40px 40px;
     }
 
-    #right-column {
+    #content-container {
+        margin: 50px 0px 0px 0px;
+    }
+
+
+    #header{
+        background: url(../img/hatC.png) no-repeat;
+        background-size: 100% 200px;
+        height: 200px;
+    }
+
+
+    #header-cl, #header-cr, #header-l, #header-r {
+        display: none;
     }
 
 }
@@ -29,62 +98,98 @@ and (max-width: 600px) {
 @media only screen
 and (min-width: 600px)
 and (max-width: 767px) {
-    #menu {
+
+    #menu{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+    }
+    #menu:focus, #menu:hover {
+        padding: 0px 0px 30px 0px;
+        position: absolute;
+        width: 100px;
+        height: 150px;
+        z-index: 999;
+        background: #660066;
+        background: -moz-linear-gradient(left, #663333, #333366); /* FF3.6+ */
+        background: -webkit-linear-gradient(left, #663333, #333366); /* Chrome 10+, Safari 5.1+ */
+        background: -o-linear-gradient(left, #663333, #333366); /* Opera 12 */
+        background: -ms-linear-gradient(left, #663333, #333366); /* IE10 */
+        background: linear-gradient(left, #663333, #333366); /* CSS3*/
     }
 
-    #content {
+    #menu-arrow{
+        display: block;
+        width: 40px;
+        height: 40px;
+        background:url('http://icons.aniboom.com/Energy/Resources/userControls/TimeFrameDropDownFilter/Dropdown_Arrow.png') 0 no-repeat;
+        background-size: 40px 40px;
     }
 
-    #right-column {
+    #content-container {
+        margin: 50px 0px 0px 0px;
     }
+
+    #header{
+        background: url(../img/hat.png) no-repeat center;
+        background-size: 100% 100%;
+    }
+
+
+    #header-cl, #header-cr, #header-l, #header-r {
+        display: none;
+    }
+
+
 }
 
 @media only screen
 and (min-width: 768px)
 and (max-width: 799px) {
-    #menu {
+    /*#menu {*/
 
-    }
+    /*}*/
 
-    #content {
-    }
+    /*#content-container {*/
+    /*}*/
 
-    #right-column {
-    }
+    /*#right-column-container {*/
+    /*}*/
 }
 
 @media only screen
 and (min-width: 800px)
 and (max-width: 1020px) {
-    #menu {
-    }
+    /*#menu {*/
+    /*}*/
 
-    #content {
-    }
+    /*#content-container {*/
+    /*}*/
 
-    #right-column {
-    }
+    /*#right-column-container {*/
+    /*}*/
 }
 
 @media only screen
 and (min-width: 1020px)
 and (max-width: 1224px) {
-    #menu {
-    }
+    /*#menu {*/
+    /*}*/
 
-    #content {
-    }
+    /*#content-container {*/
+    /*}*/
 
-    #right-column {
-    }
+    /*#right-column-container {*/
+    /*}*/
 }
 
 @media only screen
 and (min-width: 1224px) {
-    #menu {
-        width: 100%;
-        height: 50px;
-    }
+    /*#menu {*/
+        /*width: 100%;*/
+        /*height: 50px;*/
+    /*}*/
 
     #content-container {
         width: 75%;
